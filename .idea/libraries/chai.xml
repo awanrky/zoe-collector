@@ -1,0 +1,67 @@
+<component name="libraryTable">
+  <library name="chai" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/addMethod.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/overwriteMethod.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getPathValue.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/inspect.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getName.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getMessage.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getActual.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/transferFlags.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/addChainableMethod.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/flag.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/type.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/index.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/eql.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/interface/assert.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/interface/should.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/interface/expect.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/index.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/chai.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/assertion.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/error.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/core/assertions.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/objDisplay.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/test.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getEnumerableProperties.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/overwriteProperty.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getProperties.js" />
+        <item url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/addProperty.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/addMethod.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/overwriteMethod.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getPathValue.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/inspect.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getName.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getMessage.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getActual.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/transferFlags.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/addChainableMethod.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/flag.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/type.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/eql.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/interface/assert.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/interface/should.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/interface/expect.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/index.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/index.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/chai.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/assertion.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/error.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/core/assertions.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/objDisplay.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/test.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getEnumerableProperties.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/overwriteProperty.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/getProperties.js" />
+      <root url="file://$PROJECT_DIR$/../fitbit-node/node_modules/chai/lib/chai/utils/addProperty.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
