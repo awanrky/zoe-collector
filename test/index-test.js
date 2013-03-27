@@ -24,7 +24,7 @@ describe('index', function () {
 
 	it('should provide a zoe-mongo DataSource Sync constructor', function() {
 		expect(index.DataSource.Sync).to.be.a('function');
-	})
+	});
 
 	it('should create a zoe-mongo DataSource object', function() {
 		var dataSourceSync = new index.DataSource.Sync();
