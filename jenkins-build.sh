@@ -10,6 +10,11 @@ echo
 cd "$PROJECT_DIRECTORY"
 npm install
 
+echo -----------------------------------------------------------------------------
+echo set up configuration
+echo -----------------------------------------------------------------------------
+cd "$PROJECT_DIRECTORY"
+cp /mnt/Projects/zoe-collector/fitbit-private.js ./oauth/fitbit-private.js
 
 echo -----------------------------------------------------------------------------
 echo run node unit tests
