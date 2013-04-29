@@ -12,8 +12,7 @@
 		"chai": "*",
 		"requirejs": "*",
 		"fitbit-node": "git://github.com/awanrky/fitbit-node.git",
-		"zoe-mongo": "git://github.com/awanrky/zoe-mongo.git",
-		"aisa-js": "git://github.com/awanrky/aisa-js.git"
+		"zoe-mongo": "git://github.com/awanrky/zoe-mongo.git"
 	},
 	"scripts": {
 		"test":"mocha"
