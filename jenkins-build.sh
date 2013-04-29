@@ -14,7 +14,7 @@ echo ---------------------------------------------------------------------------
 echo set up configuration
 echo -----------------------------------------------------------------------------
 cd "$PROJECT_DIRECTORY"
-cp /mnt/Projects/zoe-collector/fitbit-private.js ./fitbit-private.js
+cp /var/Projects/zoe-collector/fitbit-private.js ./fitbit-private.js
 
 echo -----------------------------------------------------------------------------
 echo run node unit tests
