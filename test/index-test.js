@@ -18,16 +18,16 @@ describe('index', function () {
 		expect(fitbit).to.be.an('object');
 	});
 
-	it('should provide a zoe-mongo DataSource object', function() {
-		expect(index.DataSource).to.be.an('object');
-	});
-
-	it('should provide a zoe-mongo DataSource Sync constructor', function() {
-		expect(index.DataSource.Sync).to.be.a('function');
-	});
-
-	it('should create a zoe-mongo DataSource object', function() {
-		var dataSourceSync = new index.DataSource.Sync();
-		expect(dataSourceSync).to.be.an('object');
-	});
+//	it('should provide a zoe-mongo DataSource object', function() {
+//		expect(index.DataSource).to.be.an('object');
+//	});
+//
+//	it('should provide a zoe-mongo DataSource Sync constructor', function() {
+//		expect(index.DataSource.Sync).to.be.a('function');
+//	});
+//
+//	it('should create a zoe-mongo DataSource object', function() {
+//		var dataSourceSync = new index.DataSource.Sync();
+//		expect(dataSourceSync).to.be.an('object');
+//	});
 });
