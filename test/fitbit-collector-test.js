@@ -3,31 +3,67 @@ describe('fitbit', function () {
 		Fitbit = require('fitbit-node').Fitbit,
 		ZoeMongo = require('zoe-mongo'),
 		expect = require('chai').expect,
+		mongoose = require('mongoose'),
 		fitbitSettings = require('../fitbit-private').settings,
 		databaseSettings = require('./test-database-configuration');
 
-//	var
-//		mongo = new ZoeMongo.Mongo(
-//		databaseSettings.databaseServer,
-//		databaseSettings.databasePort,
-//		databaseSettings.databaseName
-//	);
-	var fitbitNode = new Fitbit(fitbitSettings);
-//	var dataSourceSync = new ZoeMongo.DataSource.Sync(mongo, FitbitCollector.dataSourceName);
-//	var fitbitCollector = new FitbitCollector(fitbitNode, dataSourceSync);
+	var connectionString = 'mongodb://' + databaseSettings.databaseServer + ':' + databaseSettings.databasePort + '/' + databaseSettings.databaseName;
 
-//	it('should have a mongo object', function() {
-//		expect(mongo).to.be.an('object');
-//	});
+	var fitbitNode = new Fitbit(fitbitSettings);
+	var person;
+	var PersonModel = ZoeMongo.Person.getModel(mongoose);
+
+	before(function(done) {
+		mongoose.connect(connectionString);
+		PersonModel.find({}).remove();
+
+		PersonModel.ensureIndexes(function(error) {
+			if (error) { console.log(error.message); }
+		});
+
+		person = new PersonModel({
+			name: {
+				first: 'Fitbit',
+				middle: 'Collector',
+				last: 'Test'
+			},
+			active: true,
+			createdOn: new Date()
+		});
+
+		person.save(function(error) {
+			expect(error).to.be.null;
+			mongoose.disconnect(function() {
+				done();
+			});
+		});
+
+	});
+
+	afterEach(function(done) {
+		mongoose.disconnect(function(){done();});
+	});
+
+	beforeEach(function() {
+		mongoose.connect(connectionString);
+	});
 
 	it('should have a fitbit-node Fitbit object', function() {
 		expect(fitbitNode).to.be.an('object');
 	});
 
-//	it('should have a DataSource Sync object', function() {
-//		expect(dataSourceSync).to.be.an('object');
-//	});
+	it('should have a person document', function() {
+		expect(person).to.be.an('object');
+	});
 
+	it('should have a fitbit-collector object', function() {
+		var fitbitCollector = new FitbitCollector(person, fitbitNode, mongoose);
+		expect(fitbitCollector).to.be.an('object');
+	});
+
+	it('should sync weights for a date range', function() {
+
+	});
 
 
 });

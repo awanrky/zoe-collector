@@ -11,6 +11,7 @@
 		"mocha": "*",
 		"chai": "*",
 		"requirejs": "*",
+		"mongoose": "*",
 		"fitbit-node": "git://github.com/awanrky/fitbit-node.git",
 		"zoe-mongo": "git://github.com/awanrky/zoe-mongo.git"
 	},
